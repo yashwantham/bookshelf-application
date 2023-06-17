@@ -4,12 +4,16 @@ import { CurrentlyReading } from "./HomePageComponents/CurrentlyReading/Currentl
 import { WantToRead } from "./HomePageComponents/WantToRead/WantToRead";
 import { Read } from "./HomePageComponents/Read/Read";
 
+import "./HomePage.css";
+
 export function HomePage() {
 
     return (
         <>
-            <h1>Home</h1>
-            <NavLink to="/search">Click here to search</NavLink>
+            <div className="top-container">
+            <h2 className="lib-title">Library</h2>
+            </div>
+            <NavLink to="/search" className="search-navigator">Click here to search</NavLink>
             <CurrentlyReading/>
             <WantToRead/>
             <Read/>

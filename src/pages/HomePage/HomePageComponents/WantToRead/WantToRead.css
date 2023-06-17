@@ -1,4 +1,10 @@
-.wanttoread-container {
+.wanttoread-container-list {
+    margin: 4rem 0;
+    padding: 2rem;
+}
+
+.wanttoread-list {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }

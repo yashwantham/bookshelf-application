@@ -1,4 +1,10 @@
 .read-container {
+    margin: 4rem 0;
+    padding: 2rem;
+}
+
+.read-list {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }

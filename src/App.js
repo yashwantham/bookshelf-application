@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <h1>Bookshelf Application</h1>
+        <h1 className="app-title">Bookshelf Application</h1>
 
         <Routes>
           <Route path="/" element={<HomePage/>}/>

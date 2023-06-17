@@ -1,4 +1,10 @@
-.currently-reading-container {
+.currentlyreading-container {
+    margin: 4rem 0;
+    padding: 2rem;
+}
+
+.currently-reading-list {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }

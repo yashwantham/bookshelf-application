@@ -3,3 +3,21 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.one-card {
+    margin: 1rem;
+}
+
+.go-back {
+    font-size: 1.2rem;
+}
+
+.searchinput-container {
+    margin: 2rem;
+}
+
+.input-box {
+    width: 40%;
+    height: 2rem;
+    border-radius: 25px;
+}

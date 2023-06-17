@@ -12,11 +12,13 @@ export function Read() {
 
     return (
         <>
-        <h1>Read</h1>
-        <hr />
         <div className="read-container">
+        <h2>Read</h2>
+        <div className="read-list">
         {read.map((book) => <BookCard book={book}/>)}
         </div>
+        </div>
+        <hr />
         </>
     )
 }

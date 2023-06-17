@@ -11,11 +11,13 @@ export function WantToRead() {
 
     return (
         <>
-        <h1>Want to Read</h1>
-        <hr />
-        <div className="wanttoread-container">
+        <div className="wanttoread-container-list">
+        <h2>Want to Read</h2>
+        <div className="wanttoread-list">
         {wantToRead.map((book) => <BookCard book={book}/>)}
         </div>
+        </div>
+        <hr />
         </>
     )
 }

@@ -20,12 +20,16 @@ export function SearchPage() {
     return (
         <>
         <div className="searchpage-container">
-        <NavLink to="/">Go to library</NavLink>
+        <NavLink to="/" className="go-back">Go back to library</NavLink>
         <div className="searchinput-container">
-            Search: <input type="text" onChange={inputChangeHandler}/>
+            Search: <input type="text" className="input-box" onChange={inputChangeHandler}/>
         </div>
         <div className="booklist-container">
-            {displayBookdata.map((book) => <BookCard book={book}/>)}
+            {displayBookdata.map((book) => (
+                <div className="one-card">
+                    <BookCard book={book}/>
+                </div>
+            ))}
         </div>
         </div>
         </>

@@ -11,11 +11,14 @@ export function CurrentlyReading() {
 
     return (
         <>
-            <h1>Currently Reading</h1>
-            <hr />
-            <div className="currently-reading-container">
+        <div className="currentlyreading-container">
+
+            <h2>Currently Reading</h2>
+            <div className="currently-reading-list">
             {currentlyReading.map((book) => <BookCard book={book}/>)}
             </div>
+        </div>
+            <hr />
         </>
     )
 }
